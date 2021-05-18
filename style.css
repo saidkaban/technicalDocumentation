@@ -9,7 +9,7 @@ body {
 /* The sidebar menu */
 #navbar {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 240px; /* Set the width of the sidebar */
+  width: 275px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   top: 200; /* Stay at the top */
   left: 0;
@@ -17,6 +17,8 @@ body {
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
   line-height: 1.15em;
+  border-right: solid;
+  border-color: rgba(1, 2, 2, 0.4);
 }
   
   /* The navigation menu links */
@@ -28,6 +30,9 @@ body {
 #navbar ul {
   list-style-type: none;
   padding-left: 2.5rem;
+  word-wrap: break-word;
+  border-top: solid;
+  border-color: rgba(1, 2, 2, 0.4);
 }
 
 #navbar li {
@@ -55,7 +60,7 @@ body {
 
 /* Style main content */
 main {
-  margin-left: 240px; /* Same as the width of the sidebar */
+  margin-left: 275px; /* Same as the width of the sidebar */
   padding: 30px 50px 30px 50px;
 }
 
